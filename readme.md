@@ -13,6 +13,16 @@ esc to quit
 *might* require dos to be loaded high
 i'm not too sure tbh but when i tested it on hardware that was needed
 
+running a program is `view [file].pmf`
+
+---
+## wtf is a pmf file
+it's a model file i made because i didn't feel like processing plaintext files in C
+
+you can convert a .obj file to one using the provided python convert.py file
+just
+`convert.py [file].obj` and it'll spit out a beautiful pmf file
+
 ---
 ## build instructions
 
@@ -25,7 +35,7 @@ the flags in make specify a 486 architecture since the compiler was writing inst
 ---
 ## credits
 
-object models were taken from here [website](https://people.sc.fsu.edu/~jburkardt/data/obj/obj.html)
+object models were taken from [here](https://people.sc.fsu.edu/~jburkardt/data/obj/obj.html) and then coverted
 
 ---
 
